@@ -1,0 +1,40 @@
+REQUEST: POST https://reqres.in/api/register
+BODY: 
+{
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+RESPONSE: 
+200 OK 
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+********
+REQUEST: POST https://reqres.in/api/users
+BODY: 
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "583",
+    "createdAt": "2021-07-11T19:01:37.737Z"
+}
+RESPONSE: 
+201 CREATED 
+
+    "name": "morpheus",
+    "job": "leader",
+    "id": "583",
+    "createdAt": "2021-07-11T19:01:37.737Z"
+}
+********
+REQUEST: POST https://reqres.in/api/login
+BODY: 
+{
+    "email": "peter@klaven"
+}
+RESPONSE: 
+400 BAD REQUEST
+{
+    "error": "Missing password"
+}
