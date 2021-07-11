@@ -1,0 +1,3 @@
+REQUESR: DELETE https://reqres.in/api/users/2
+
+RESPONSE: 204 NO CONTENT
