@@ -1,0 +1,12 @@
+REQUEST: PUT https://reqres.in/api/users/2 
+BODY: 
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}
+RESPONCE: 200 OK
+{
+    "name": "morpheus",
+    "job": "zion resident",
+    "updatedAt": "2021-07-11T19:15:09.388Z"
+}
